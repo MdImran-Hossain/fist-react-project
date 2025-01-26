@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../assets/logo.png";
-import Button from "./Button";
+import Button from "./commonCommponet/Button";
 function Header() {
     const menuItem=[
         {
