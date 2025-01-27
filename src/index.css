@@ -72,4 +72,7 @@
 .btn:hover::after{
   width: 0;
 }
+.Bbtn::after{
+left: 0;
+}
 }

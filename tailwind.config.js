@@ -17,6 +17,9 @@ export default {
         Nunito:"var(--Nunito)",
         Lora:"var(--lora)"
       },
+      backgroundImage: {
+        bannerBg:"url('./src/assets/banner/bannerBg.png')"
+      }
     },
   },
   plugins: [],
