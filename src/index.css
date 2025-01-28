@@ -75,4 +75,33 @@
 .Bbtn::after{
 left: 0;
 }
+.slider{
+  width: 240px !important;
+  height: 120px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  background: #f6f6f6;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  margin: 10px;
+}
+.slick-current .slider{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  animation: animeted 0.3s ;
+  -webkit-animation: animeted 3s infinite;
+}
+@keyframes animeted {
+  0%{
+    filter: hue-rotate(3);
+    -webkit-filter: hue-rotate(3);
+}
+100%{
+  filter: hue-rotate(720deg);
+  -webkit-filter: hue-rotate(720deg);
+}
+}
 }

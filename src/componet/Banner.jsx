@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "./commonCommponet/Button";
+import Paragraf from "./commonCommponet/Paragraf";
 import bannerImg from "../assets/banner/banner.png"
 const Banner = () => {
   return (
@@ -12,10 +13,7 @@ const Banner = () => {
                 Get Bussiness <br />
                 Solutions with TheFirm.
               </h1>
-              <p className="font-normal font-Lora text-[18px] text-font_color leading-[133%] tracking-tighter max-w-[400px] py-[30px]">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy.
-              </p>
+             <Paragraf ParagrafContent={'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy.'}/>
               <Button buttonContent={"Get in Touch"} buttonDesing={"after:left-0"}/>
             </div>
             <div className="h-full w-[947px] absolute right-[-34px] -z-[1] shadow-xl">
