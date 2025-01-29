@@ -3,6 +3,8 @@ import Header from './componet/Header'
 import Banner from './componet/Banner'
 import Patner from './componet/Patner'
 import Frustration from './componet/Frustration'
+import Bussiness from './componet/Bussiness'
+import Research from './componet/Research'
 const App = () => {
   return (
     <>
@@ -10,6 +12,8 @@ const App = () => {
     <Banner />
     <Patner />
     <Frustration />
+    <Bussiness />
+    <Research />
     </>
   )
 }
