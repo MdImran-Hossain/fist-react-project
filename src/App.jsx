@@ -5,6 +5,7 @@ import Patner from './componet/Patner'
 import Frustration from './componet/Frustration'
 import Bussiness from './componet/Bussiness'
 import Research from './componet/Research'
+import Blogs from './componet/Blogs'
 const App = () => {
   return (
     <>
@@ -14,6 +15,7 @@ const App = () => {
     <Frustration />
     <Bussiness />
     <Research />
+    <Blogs />
     </>
   )
 }
