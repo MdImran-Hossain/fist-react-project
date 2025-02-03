@@ -6,6 +6,8 @@ import Frustration from './componet/Frustration'
 import Bussiness from './componet/Bussiness'
 import Research from './componet/Research'
 import Blogs from './componet/Blogs'
+import Testimonials from './componet/Testimonials'
+import Chose from './componet/Chose'
 const App = () => {
   return (
     <>
@@ -14,8 +16,10 @@ const App = () => {
     <Patner />
     <Frustration />
     <Bussiness />
+    <Chose />
     <Research />
     <Blogs />
+    <Testimonials />
     </>
   )
 }
