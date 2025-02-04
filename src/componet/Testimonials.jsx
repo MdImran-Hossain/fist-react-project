@@ -3,6 +3,7 @@ import CommonHead from "./commonCommponet/CommonHead";
 import Slider from "react-slick";
 import Test1 from "../assets/tesmonial/test1.png";
 import Test2 from "../assets/tesmonial/test2.png"
+import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 const Testimonials = () => {
     const settings = {
         className: "center",
@@ -14,6 +15,8 @@ const Testimonials = () => {
         autoplaySpeed:4000,
         speed: 500,
         arrows:true,
+
+
       };
    
   return (

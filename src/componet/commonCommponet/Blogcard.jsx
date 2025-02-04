@@ -24,8 +24,8 @@ const Blogcard = ({BlogImg,Title,Sumary,ManImg,Name,Date,Btn}) => {
                         {Name}
                       </h4>
                     </div>
-                    <p className="text-[10px] font-Nunito font-normal text-[#B0B0B0]">
-                      <span>
+                    <p className="text-[10px] font-Nunito font-normal text-[#B0B0B0] flex items-center gap-[6px] justify-center">
+                      <span className='text-[15px]'>
                       <MdOutlineWatchLater />
                       </span>{" "}
                      {Date}
